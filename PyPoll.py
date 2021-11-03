@@ -18,8 +18,6 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 # Open the election results and read the file.
 with open(file_to_load) as election_data:
 
-    # To do: read and analyze the data here.
-
     # Read the file object with the reader function.
     file_reader = csv.reader(election_data)
 
@@ -35,16 +33,16 @@ with open(file_to_load) as election_data:
 election_data.close()
 
 # Using the open() function with the "w" mode we will write data to the file.
-with open(file_to_save, "w") as txt_file:
+#with open(file_to_save, "w") as txt_file:
 
     # Write a heading 
-    txt_file.write("Counties in the Election")
+    #txt_file.write("Counties in the Election")
 
     # Skip a line
-    txt_file.write("\n-------------------------")
+    #txt_file.write("\n-------------------------")
 
     # Write three counties to the file.
-    txt_file.write("\nArapahoe\nDenver\nJefferson")
+   # txt_file.write("\nArapahoe\nDenver\nJefferson")
 
 #Close the file
-txt_file.close()
+#txt_file.close()
