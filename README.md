@@ -12,20 +12,20 @@ In this project I will:
 5. Determine the winner of the election based on popular vote.
 
 ## Resources
-Data source: election_results.csv
-Software: Python 3.7.6, Visual Studio Code 1.61.2
+- Data source: election_results.csv
+- Software: Python 3.7.6, Visual Studio Code 1.61.2
 
 ## Summary
 The analytics of the election show that:
 
-1. The total number of votes cast in the election was 369,711.
-2. There were three candidates running:
-    a. Charles Casper Stockham
-    b. Diana DeGette
-    c. Raymon Anthony Doane
-3. The results were as follows:
-    a. Charles Casper Stockham received 23.0% of the vote with 85,213 votes.
-    b. Diana DeGette received 73.8% of the vote with 272,892 votes.
-    c. Raymon Anthony Doane received 3.1% of the vote with 11,606 votes.
-4. The winner of the election:
-    Diana DeGette, who received 73.8% of the vote with 272,892 votes.
+- The total number of votes cast in the election was 369,711.
+- There were three candidates running:
+    - Charles Casper Stockham
+    - Diana DeGette
+    - Raymon Anthony Doane
+- The results were as follows:
+    - Charles Casper Stockham received 23.0% of the vote with 85,213 votes.
+    - Diana DeGette received 73.8% of the vote with 272,892 votes.
+    - Raymon Anthony Doane received 3.1% of the vote with 11,606 votes.
+- The winner of the election was:
+    - Diana DeGette, who received 73.8% of the vote with 272,892 votes.
