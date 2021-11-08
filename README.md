@@ -107,7 +107,7 @@ The analytics of the election show that:
 
 A text of the results is available below:
 
-[Election Analysis Text](https://github.com/MaxV6ft4/Election_Analysis/blob/main/Analysis/election_analysis.txt)
+[Election Results Text](https://github.com/MaxV6ft4/Election_Analysis/blob/main/Analysis/election_analysis.txt)
 
 ## Summary
 
