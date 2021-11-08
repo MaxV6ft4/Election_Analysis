@@ -110,4 +110,8 @@ A text of the results is available below:
 [Election Results Text](https://github.com/MaxV6ft4/Election_Analysis/blob/main/Analysis/election_analysis.txt)
 
 ## Summary
+We have seen that by using Python, this script has successfully displayed the total number of votes, voter turnout per county, the percentage of votes per county, the county with the hightest turnout, the total number and percentage of votes each candidate received, and the winning candidate.  However, with modifications, this script can be used for *any* election.  A couple examples are as follows:
 
+- If analysis was needed to calculate the outcome of a nationwide election, such as the presidential race, I would have to include voter turnout in each state and calculate the state with the largest turnout.  Conducting analysis on each state's counties would be cumbersome.  It would involve a list of 50 county dictionaries, one for each state!
+
+- If analysis was needed to calculate the result of a referendum, the values in column C would change from candidate names to 'yes' and 'no'.  When calculating the winner, the winning candidate would be changed to winning choice.  Methods of calculating count and percentages would not change.
