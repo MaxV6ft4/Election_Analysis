@@ -7,7 +7,7 @@ In all, there were seven tasks to complete:
 
 1. Calculate the total number of votes cast.
 2. Calculate the voter turnout for each county.
-3. Calculate the percentages of votes from each county (out of the total vote count).
+3. Calculate the percentage of votes from each county (out of the total vote count).
 4. Determine the county with the highest voter turnout.
 5. Calculate the total number of votes each candidate received.
 6. Calculate the percentage of votes each candidate won.
@@ -21,7 +21,9 @@ In all, there were seven tasks to complete:
 
 [Election Analysis Python File](https://github.com/MaxV6ft4/Election_Analysis/blob/main/PyPoll_Challenge.py)
 
-The analytics of the election show that:
+For each result, I have displayed a sample of the code I used for calculations.
+
+The analysis of the election shows that:
 
 - The total number of votes cast in the election was 369,711.
             
@@ -110,7 +112,7 @@ A text of the results is available below:
 [Election Results Text](https://github.com/MaxV6ft4/Election_Analysis/blob/main/Analysis/election_analysis.txt)
 
 ## Summary
-We have seen that by using Python, this script has successfully displayed the total number of votes, voter turnout per county, the percentage of votes per county, the county with the hightest turnout, the total number and percentage of votes each candidate received, and the winning candidate.  However, with modifications, this script can be used for *any* election.  A couple examples are as follows:
+We have seen that by using Python, this script has successfully displayed the total number of votes, voter turnout per county, the percentage of votes per county, the county with the hightest turnout, the total number and percentage of votes each candidate received, and the winning candidate.  However, with modifications this script can be used for *any* election.  A couple examples are as follows:
 
 - If analysis was needed to calculate the outcome of a nationwide election, such as the presidential race, I would have to include voter turnout in each state and calculate the state with the largest turnout.  Conducting analysis on each state's counties would be cumbersome.  It would involve a list of 50 county dictionaries, one for each state!
 
