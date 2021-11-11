@@ -19,7 +19,7 @@ In all, there were seven tasks to complete:
 
 ## Results
 
-[Election Analysis Python File](https://github.com/MaxV6ft4/Election_Analysis/blob/main/PyPoll_Challenge.py)
+[Python Election File](https://github.com/MaxV6ft4/Election_Analysis/blob/main/PyPoll_Challenge.py)
 
 For each result, I have displayed a sample of the code I used for calculations.
 
@@ -112,8 +112,8 @@ A text of the results is available below:
 [Election Results Text](https://github.com/MaxV6ft4/Election_Analysis/blob/main/Analysis/election_analysis.txt)
 
 ## Summary
-We have seen that by using Python, this script has successfully displayed the total number of votes, voter turnout per county, the percentage of votes per county, the county with the hightest turnout, the total number and percentage of votes each candidate received, and the winning candidate in this local election.  However, with modifications this script can be used for *any* election.  A couple examples are as follows:
+This Python script has successfully calculated the total number of votes, voter turnout per county, the percentage of votes per county, the county with the hightest turnout, the total number and percentage of votes each candidate received, and the winning candidate in this local election.  However, with certain modifications this script can be used for *any* election.  A couple examples are as follows:
 
-- If analysis was needed to calculate the outcome of a nationwide election, such as the presidential race, I would have to include voter turnout in each state and calculate the state with the largest turnout.  Conducting analysis on each state's counties would be cumbersome.  It would involve a list of 50 county dictionaries, one for each state!
+- If analysis was needed to calculate the outcome of a nationwide election, such as the presidential race, I would have to include voter turnout in each state and calculate the state with the largest turnout.  Conducting analysis on each state's counties would be cumbersome.  It would involve a list of 50 dictionaries, one for each state!
 
-- If analysis was needed to calculate the result of a referendum, the values in column C would change from candidate names to 'yes' and 'no'.  When calculating the winner, the winning candidate would be changed to winning choice.  Methods of calculating count and percentages would not change.
+- If analysis was needed to calculate the result of a referendum, the values in column C of the .csv file would change from candidate names to 'yes' and 'no'.  When calculating the winner in Python, winning_candidate would be changed to winning_choice.  Methods of calculating count and percentages would not change.
